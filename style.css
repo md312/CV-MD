@@ -463,11 +463,16 @@ display: none;
 
     /*CORPS CV*/
 
+   .titrecorps{
+       margin-left:10px;
+   }
+    
     .details {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         padding-top: 20px;
+        margin-left: 10px;  
     }
 
     .date {
