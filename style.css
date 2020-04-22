@@ -457,18 +457,27 @@ display: none;
     }
 
 
+    /*TITRE CORPS CV*/
+  
+
+    .titrecorps h2 {
+         word-break: break_word;
+         font-size: 1em;
+         margin-left: 3%;
+        }
+
+    #graduate, #briefcase, #check {
+        font-size: 1.5em;
+        color: #00BCD4;
+        padding-left: 5px;
+        margin-left: 2px;
+    }
+
+
     /*CORPS CV*/
 
-    #corpscv{
+    #corpscv {
         padding: 10px 10px;
-    }
-    
-    .titrecorps{
-        font-size: 0.8em;
-    }
-
-    h2{
-        word-break: break-word;
     }
     
     .details {
