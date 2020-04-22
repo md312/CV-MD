@@ -403,10 +403,7 @@ display: none;
     }
 
 
-    #corpscv {
-
-    }
-
+ 
 
 
     /*TITRE PAGE WEB*/
@@ -467,7 +464,11 @@ display: none;
     }
     
     .titrecorps{
-        font-size: 1em;
+        font-size: 0.8em;
+    }
+
+    h2{
+        word-break: break-word;
     }
     
     .details {
