@@ -393,8 +393,9 @@ display: none;
     /*CSS GENERAL*/
 
     body {
-      padding: 30px 0px;
-
+     margin: 0 auto;
+     max-width: 100%;
+     display: block;
     }
 
     #bandeau {
@@ -403,9 +404,7 @@ display: none;
 
 
     #corpscv {
-        margin-left: 20px;
-        margin-right: 20px;
-        padding-left:10px;
+
     }
 
 
@@ -413,7 +412,6 @@ display: none;
     /*TITRE PAGE WEB*/
     #titre {
         
-        margin-left: 20px;
         text-align: center;
         margin-top: 0px;
         padding-top: 0px;
@@ -428,8 +426,7 @@ display: none;
     #titrephoto {
         display: flex;
         flex-direction: column;
-        margin-top: 0px;
-        padding-top: 0px;
+       padding: 10px 10px;
     }
 
     #titre h3 {
@@ -465,16 +462,19 @@ display: none;
 
     /*CORPS CV*/
 
-   .titrecorps{
-       padding-left: 10px;
-   }
+    #corpscv{
+        padding: 10px 10px;
+    }
+    
+    .titrecorps{
+        font-size: 1em;
+    }
     
     .details {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding-top: 20px;
-        margin-left: 10px;  
+
     }
 
     .date {
@@ -490,8 +490,8 @@ display: none;
         text-align: center;
     }
 
-        .description p {
-            text-align: center;
+    .description p {
+        text-align: center;
         }
 
     .borderdotted {
