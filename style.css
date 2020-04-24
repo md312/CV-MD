@@ -491,11 +491,14 @@ display: none;
         min-width: 100%;
     }
 
-        .date p {
+    .date p {
             line-height: 70%;
             color: #00BCD4;
         }
 
+    .description{
+        text-align: justify;
+    }
  
     .description p {
         text-align: justify;
