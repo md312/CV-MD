@@ -496,15 +496,13 @@ display: none;
             color: #00BCD4;
         }
 
-    .description {
-        text-align: center;
-    }
-
+ 
     .description p {
-        text-align: center;
+        text-align: justify;
         }
 
     .borderdotted {
+        padding-bottom:3px;
         border-bottom: 2px #424242 dotted;
     }
 
