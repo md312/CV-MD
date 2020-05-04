@@ -88,7 +88,7 @@ body {
 #moi{
     min-height: 800px;
 }
-#moitxt{
+.moitxt{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,7 @@ body {
 
     /*CSS bloc Loisirs*/
 
-#icones
+.icones
 {
     display: flex;
     justify-content: space-between;
@@ -107,17 +107,17 @@ body {
    
 }
 
-#icone1 {
+.icone1 {
     font-size: 2em;
     color: #424242;
 }
 
-#icone2 {
+.icone2 {
     font-size: 2em;
     color: #424242;
 }
 
-#icone3 {
+.icone3 {
     font-size: 2em;
     color: #424242;
 }
@@ -496,8 +496,8 @@ display: none;
             color: #00BCD4;
         }
 
-    .description{
-        text-align: justify;
+    .description h3{
+        text-align: left;
     }
  
     .description p {
