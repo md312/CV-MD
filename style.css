@@ -451,7 +451,7 @@ footer {
     /*TITRE CORPS CV*/
 
     .titrecorps h2 {
-        word-break: break_word;
+        word-break: break-all;
         font-size: 1em;
         margin-left: 3%;
     }
