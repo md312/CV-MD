@@ -201,7 +201,7 @@ h1 {
 }
 
     .date p {
-        word-break: break-word;
+        word-break: break-all;
         font-weight: 600;
     }
 
