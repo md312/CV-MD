@@ -1,5 +1,5 @@
 
-/*CSS GENERAL*/ 
+/*CSS GENERAL*/
 
 body {
     font-family: "Manrope", sans-serif;
@@ -9,10 +9,9 @@ body {
     margin-top: 0px;
     padding-top: 0px;
     margin-left: 0px;
-    padding-left:0px;
+    padding-left: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-  
 }
 
     body p {
@@ -21,16 +20,17 @@ body {
 
 
     /*LIENS HTML*/
+    
     body a {
         color: #616161;
     }
 
-    body a:hover{
-        color:#424242;
-    }
+        body a:hover {
+            color: #424242;
+        }
 
-    body a:active {
-         color: #616161;
+        body a:active {
+            color: #616161;
         }
 
 
@@ -43,25 +43,23 @@ body {
 #bandeau {
     max-width: 384px;
     margin-right: 60px;
-    background-color: #00BCD4;  
+    background-color: #00BCD4;
 }
 
 #photo {
     display: flex;
     justify-content: center;
     padding: 63px 80px 40px 80px;
-   
 }
 
 .titrenav {
     color: #00BCD4;
     display: flex;
     justify-content: center;
-    align-items: center;  
-    min-height:48px;
+    align-items: center;
+    min-height: 48px;
     background-color: #424242;
     font-weight: 900;
-
 }
 
 
@@ -72,9 +70,9 @@ body {
     padding-bottom: 20px;
 }
 
-#contact p{
+#contact p {
     margin: 0;
-    padding:0;
+    padding: 0;
     font-weight: bold;
 }
 
@@ -83,12 +81,13 @@ body {
     margin-bottom: 27px;
 }
 
-    /*CSS bloc A propos*/
+/*CSS bloc A propos*/
 
-#moi{
+#moi {
     min-height: 800px;
 }
-.moitxt{
+
+.moitxt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,13 +97,11 @@ body {
 
     /*CSS bloc Loisirs*/
 
-.icones
-{
+.icones {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 63px 40px 63px ;
-   
+    padding: 30px 63px 40px 63px;
 }
 
 .icone1 {
@@ -132,7 +129,7 @@ body {
 
 #conteneur {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -142,16 +139,16 @@ body {
 
 h1 {
     font-size: 3.2em;
-    font-weight:600;
+    font-weight: 600;
     color: #00BCD4;
     margin-bottom: 0px;
-    padding-bottom:0px;
+    padding-bottom: 0px;
 }
 
-h1 span {
-    font-weight: 200;
-    color: #000000;
-}
+    h1 span {
+        font-weight: 200;
+        color: #000000;
+    }
 
 #titre h3 {
     margin-top: 0px;
@@ -160,26 +157,24 @@ h1 span {
     margin-bottom: 100px;
 }
 
-#titre h3 span{
-    border-bottom: 2px #00BCD4 solid;
-}
+    #titre h3 span {
+        border-bottom: 2px #00BCD4 solid;
+    }
 
 /*Titres blocs Corps CV*/
 
 .titrecorps {
-   display: flex;
-   align-items: center;
-   border-bottom: 2px #00BCD4 solid;
-   padding-bottom : 0px;
-   font-size: 1.3em;
-   margin-top: 2%;
-  
-
+    display: flex;
+    align-items: center;
+    border-bottom: 2px #00BCD4 solid;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+    margin-top: 2%;
 }
 
-.titrecorps h2{
-    margin-left: 30px;
-}
+    .titrecorps h2 {
+        margin-left: 30px;
+    }
 
 #graduate, #briefcase, #check {
     font-size: 1.8em;
@@ -196,43 +191,44 @@ h1 span {
     padding-top: 20px;
 }
 
-    /* CSS Dates*/
-.date{
-         
-          min-width: 250px;
-          margin-right:20px;
-          justify-content: flex-start;
-          
-      }
 
-.date p {
-        word-wrap: break-word;
-        font-weight:600;
+
+/* CSS Dates*/
+.date {
+    min-width: 250px;
+    margin-right: 20px;
+    justify-content: flex-start;
+}
+
+    .date p {
+        word-break: break-word;
+        font-weight: 600;
     }
 
+
+
     /*CSS Description*/
-.description{
+.description {
     margin-left: 10px;
 }
 
 
-.description p {
-    color: #424242;
-    text-align: justify;
-}
+    .description p {
+        color: #424242;
+        text-align: justify;
+    }
 
     /*Définition des puces*/
-.priorite{
-    
+.priorite {
     list-style-image: url("elements/puce_ok.png");
-    list-style-position:inherit;
-    
-  
+    list-style-position: inherit;
 }
 
-.normal{
+.normal {
     list-style-image: url("elements/puce2_ok.png");
 }
+
+
 
 /*Bloc Recommendations*/
 
@@ -249,7 +245,6 @@ h1 span {
     line-height: 100%;
     margin-bottom: 5%;
     min-width: 25%;
-    
 }
 
     /*Polices Recommendations*/
@@ -261,24 +256,21 @@ h1 span {
 
 .grasreco {
     font-weight: 600;
-   
-   
 }
 
 
 /*OBJETS CACHES*/
 
-#moiipad{
-    display:none;
-}
-
-#photoipad{
+#moiipad {
     display: none;
 }
 
-footer{
+#photoipad {
+    display: none;
+}
 
-display: none;
+footer {
+    display: none;
 }
 
 
@@ -324,6 +316,7 @@ display: none;
 
 
     /*BANDEAU TOP*/
+
     #moiipad {
         display: block;
         background-color: #00BCD4;
@@ -393,9 +386,9 @@ display: none;
     /*CSS GENERAL*/
 
     body {
-     margin: 0 auto;
-     max-width: 100%;
-     display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        display: block;
     }
 
     #bandeau {
@@ -403,17 +396,14 @@ display: none;
     }
 
 
- 
-
 
     /*TITRE PAGE WEB*/
     #titre {
-        
         text-align: center;
         margin-top: 0px;
         padding-top: 0px;
     }
-    
+
     #photoipad {
         display: flex;
         justify-content: center;
@@ -423,7 +413,7 @@ display: none;
     #titrephoto {
         display: flex;
         flex-direction: column;
-       padding: 10px 10px;
+        padding: 10px 10px;
     }
 
     #titre h3 {
@@ -457,14 +447,14 @@ display: none;
     }
 
 
+
     /*TITRE CORPS CV*/
-  
 
     .titrecorps h2 {
-         word-break: break_word;
-         font-size: 1em;
-         margin-left: 3%;
-        }
+        word-break: break_word;
+        font-size: 1em;
+        margin-left: 3%;
+    }
 
     #graduate, #briefcase, #check {
         font-size: 1.5em;
@@ -479,33 +469,32 @@ display: none;
     #corpscv {
         padding: 10px 10px;
     }
-    
+
     .details {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-
     }
 
     .date {
         min-width: 100%;
     }
 
-    .date p {
+        .date p {
             line-height: 70%;
             color: #00BCD4;
         }
 
-    .description h3{
+    .description h3 {
         text-align: left;
     }
- 
+
     .description p {
         text-align: justify;
-        }
+    }
 
     .borderdotted {
-        padding-bottom:3px;
+        padding-bottom: 3px;
         border-bottom: 2px #424242 dotted;
     }
 
@@ -550,7 +539,7 @@ display: none;
         margin-bottom: 27px;
     }
 
-  
+
     /*Bloc Loisirs*/
 
     #footeripad2 {
